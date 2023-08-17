@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'prettier/prettier': ['error'],
+    'prettier/prettier': 0,
     'no-unused-vars': [
       'error',
       { vars: 'all', args: 'none', ignoreRestSiblings: false }
